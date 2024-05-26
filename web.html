@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section id="blog">
+
+        <div class="blog-heading">
+            <span>My Blog</span>
+            <h3>Flowers</h3>
+        </div>
+
+        <div class="blog-container">
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="Images/image1.jpg" alt="image1">
+                </div>
+
+                <div class="blog-text">
+                    <span>Tulips: Tulips are graceful flowers that come in a range of colors, from deep reds and purples to soft pastels. 
+                        They symbolize perfect love and are often associated with springtime and renewal. 
+                        Tulips can convey a sense of elegance and simplicity, making them a popular choice for both romantic gestures and festive arrangements.</span>
+                </div>
+
+            </div>
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="Images/image2.jpg" alt="image1">
+                </div>
+
+                <div class="blog-text">
+                    <span>
+                        Sakura : or cherry blossoms, are delicate flowers with pale pink or white petals. They bloom in early spring, gracing the landscape with their ephemeral beauty. 
+                        Symbolizing the transient nature of life and the arrival of spring, sakura captivates hearts with its fleeting splendor and timeless elegance.
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="Images/image3.jpg" alt="image1">
+                </div>
+
+                <div class="blog-text">
+                    <span>Sunflowers : are vibrant and cheerful flowers with large, golden-yellow blooms resembling the sun.
+                         Standing tall on sturdy stems, they symbolize warmth, happiness, and positivity. Sunflowers turn their faces towards the sun,
+                          tracking its movement throughout the day, a behavior known as heliotropism.
+                         Their bright and radiant presence brings joy and brightness to any garden or bouquet.
+                        </span>
+                </div>
+
+            </div>
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="Images/image4.jpg" alt="image1">
+                </div>
+
+                <div class="blog-text">
+                    <span> Roses: Known for their elegance and fragrance, roses come in a variety of colors, each conveying a different sentiment.
+                         From the romantic red roses symbolizing love and passion to the innocent white roses representing purity and new beginnings, roses are versatile and timeless.</span>
+                </div>
+
+            </div>
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="Images/image5.jpg" alt="image1">
+                </div>
+
+                <div class="blog-text">
+                    <span>Sunflowers: With their vibrant yellow petals and large, cheerful blooms, sunflowers evoke feelings of warmth and happiness. 
+                        They are often associated with positivity, adoration, and loyalty, making them a popular choice for brightening someone's day.
+                        </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="blog2">
+        <h1>Blooming Flowers</h1>
+
+        <div class="videoPlayer">
+            <video width="680" height="600" controls>
+            <source src="vedio.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="resizable_img">
+            <img id="resizeImage" src="Images/image6.png" alt="resizable Image" onclick="resizeImage()" class="resizeImage"/>
+        </div>
+
+    </section>
+
+    <form id="contactForm" onsubmit="return validateForm()">
+        <h3>Contact Us</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="telephone">Telephone number:</label>
+        <input type="tel" id="telephone" name="telephone" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <button>Submit</button>
+      </form>
+
+    <div class="movable_img">
+        <img id="moveImage" src="Images/image7.jpg" alt="Clickable Image" onclick="moveImage()" class="moveImage"/>
+    </div>
+
+    <script src="blog_ass02.js"></script>
+</body>
+
+</html>
